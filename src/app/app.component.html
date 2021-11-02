@@ -1,0 +1,7 @@
+<div class="carousel-container">
+<carousel [height]='500' [arrowsOutside]= 'true' [cellWidth]='240' [dots]=true>
+    <div class="carousel-cell" *ngFor="let plan of plans">
+        <card [plan]=plan></card>
+    </div>
+</carousel>
+</div>
